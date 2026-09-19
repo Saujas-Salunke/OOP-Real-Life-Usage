@@ -55,6 +55,8 @@ int main() {
     car.display();
     cout << "Rent for 3 days: " << car.calculateRent(4) << endl;
 
+    cout << endl;
+
     cout << "Bike Details" << endl;
     bike.display();
     cout << "Rent for 3 days: " << bike.calculateRent(4) << endl;
