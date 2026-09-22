@@ -1,4 +1,4 @@
-# Object-Oriented Programming with C++ - Unit II
+# OOPs - Real Life Usage
 
 ## Student Details
 
@@ -9,54 +9,253 @@
 |Class | SY. B.Tech (Div: A) |
 |Roll No. | AD2153|
 |Course Name | Object-Oriented Programming with C++ |
-|Unit | Unit II |
+|Unit | Unit I, II, III |
 
-## Programs
+## Unit I – Programs
 
-1. Basic Single Inheritance \
-Aim: To implement single inheritance using Person as a base class and Student as a derived class. 
+### 1. Smart Farm Sensor Monitor
 
-2. Protected Member Access \
-Aim: To demonstrate how a derived class can access a protected base-class member. 
+A farm monitoring program that stores soil moisture readings from multiple field sensors. Each sensor keeps its ID, moisture level, and recording time, and its reading can be updated when new data arrives.
 
-3. Public versus Private Inheritance \
-Aim: To observe the effect of public and private inheritance on accessibility.
+**Concepts used:**
 
-4. Multilevel Inheritance \
-Aim: To implement multilevel inheritance using Person → Employee → Manager. 
+- Classes and Objects
+- Encapsulation (private data members)
+- Constructors
+- Constant member functions
+- STL Vector
 
-5. Hierarchical Inheritance \
-Aim: To implement hierarchical inheritance using Vehicle as a common base class.
+### 2. Student Attendance Tracker
 
-6. Multiple Inheritance \
-Aim: To demonstrate multiple inheritance using academic and sports records. 
+An attendance program that records whether a student was present in each class and calculates the attendance percentage from total and attended classes.
 
-7. Resolving Multiple-Inheritance Ambiguity \
-Aim: To resolve ambiguity when two base classes contain methods with the same name. 
+**Concepts used:**
 
-8. Constructor and Destructor Order \
-Aim: To observe the construction and destruction order of a derived object. 
+- Classes and Objects
+- Encapsulation
+- Constructors
+- Constant member functions
+- Derived value calculation (attendance percentage)
 
-9. Parameterized Base Constructor \
-Aim: To initialize a parameterized base class from a derived-class constructor.
+### 3. Product Inventory Manager
 
-10. Function Overriding \
-Aim: To override a virtual member function in a derived class.
+An inventory program that stores product details such as ID, name, price, and stock, and keeps a live count of the total number of products.
 
-11. Abstract Class \
-Aim: To create an abstract base class using a pure virtual function.  
+**Concepts used:**
 
-12. Virtual Base Class and Diamond Inheritance \
-Aim: To solve duplicate-base ambiguity in diamond inheritance using a virtual base class.  
+- Classes and Objects
+- Constructors and Destructors
+- Getter functions
+- Static data members
+- Static member functions
+- Constant member functions
 
-13. Friend Class \
-Aim: To demonstrate access to private data using a friend class. 
+### MINI_PROJECT : Smart Home Manager
 
-14. Nested Class \
-Aim: To create and use a nested class. 
+A menu-driven smart home manager that controls devices such as Smart Light, Thermostat, Security Camera, and Door Lock. The user can view a home dashboard, switch devices ON or OFF, and change a device's status using its device ID.
 
-15. Mini-Project — Vehicle Rental System \
-Aim: To build an inheritance-based vehicle rental application.
+**Concepts used:**
 
-16. Mini-Project — Employee Payroll System \
-Aim: To develop a salary system using an abstract class and derived classes. 
+- Inheritance
+- Protected members
+- Virtual functions
+- Function overriding
+- Runtime polymorphism
+- Virtual destructor
+- Dynamic memory allocation
+- Menu-driven programming
+
+---
+
+## Unit II – Programs
+
+### 1. Employee Payroll System
+
+A payroll program with an abstract Employee base class and three employee types: Full-Time, Part-Time, and Intern. Each type calculates pay differently: fixed monthly salary, hourly rate multiplied by hours worked, or a monthly stipend.
+
+**Concepts used:**
+
+- Classes and Objects
+- Inheritance
+- Encapsulation
+- Constructors with initializer lists
+- Abstract classes
+- Pure virtual functions
+- Function overriding
+- Salary calculation
+
+### 2. Payment Gateway System
+
+A payment system demonstrating an abstract base class and different payment methods such as Credit Card, UPI, and Net Banking, all managed through a vector of smart pointers.
+
+**Concepts used:**
+
+- Abstraction
+- Abstract classes
+- Pure virtual functions
+- Inheritance
+- Function overriding
+- Runtime polymorphism
+- Virtual destructor
+- Smart pointers
+- STL Vector
+
+### 3. Vehicle Fleet Management
+
+A fleet management program containing vehicles such as Truck, Delivery Van, and Delivery Bike. Each vehicle displays its own details through overridden functions, and the fleet is stored as a vector of smart pointers.
+
+**Concepts used:**
+
+- Inheritance
+- Protected members
+- Function overriding
+- Virtual functions
+- Runtime polymorphism
+- Virtual destructor
+- Smart pointers
+- STL Vector
+
+### MINI_PROJECT : Banking System
+
+A menu-driven banking system with Savings, Current, and Fixed Deposit accounts. The user enters account details, selects an account type, and performs deposit, withdrawal, account information display, and interest calculation. Interest is 4% for savings, none for current, and 7% per year for fixed deposit.
+
+**Concepts used:**
+
+- Inheritance
+- Abstraction
+- Abstract classes
+- Pure virtual functions
+- Virtual functions
+- Runtime polymorphism
+- Virtual destructor
+- Dynamic memory allocation
+- Menu-driven programming
+
+---
+
+## Unit III – Programs
+
+### 1. Shape Area System
+
+A shape area calculator with an abstract Shape base class and derived shapes: Circle, Rectangle, and Triangle. Each shape reports its own details and calculates its area through runtime polymorphism.
+
+**Concepts used:**
+
+- Abstraction
+- Abstract classes
+- Pure virtual functions
+- Inheritance
+- Function overriding
+- Runtime polymorphism
+- Virtual destructor
+- Smart pointers
+- STL Vector
+
+### 2. Complex Number Operations
+
+A complex number program that overloads operators so complex numbers can be added, subtracted, multiplied, and compared using natural syntax such as `num1 + num2`.
+
+**Concepts used:**
+
+- Operator overloading (`+`, `-`, `*`, `==`)
+- Constructors with default arguments
+- Constant member functions
+- Returning objects by value
+
+### 3. Data Checker
+
+A validation utility class that checks real-life input rules: marks between 0 and 100, transaction amounts within a valid range, and names containing only letters and spaces.
+
+**Concepts used:**
+
+- Classes and Objects
+- Input validation
+- String handling
+- Character functions (`isalpha`)
+- Range-based for loop
+- Constant member functions
+
+### MINI_PROJECT : Media Player
+
+A media player simulation with Audio, Video, and Image types built on a common Media base class. Each type responds to play, pause, stop, and show-details operations in its own way.
+
+**Concepts used:**
+
+- Inheritance
+- Protected members
+- Virtual functions
+- Function overriding
+- Runtime polymorphism
+- Virtual destructor
+- Dynamic memory allocation
+- STL Vector of base class pointers
+
+---
+
+## Concepts Covered
+
+### Unit I
+
+- Classes and Objects
+- Encapsulation
+- Constructors and Destructors
+- Constant Member Functions
+- Static Data Members and Static Member Functions
+- Inheritance and Protected Members
+- Virtual Functions and Function Overriding
+- Dynamic Memory Allocation
+- STL Vector
+
+### Unit II
+
+- Inheritance
+- Abstraction
+- Abstract Classes and Pure Virtual Functions
+- Function Overriding
+- Runtime Polymorphism
+- Virtual Destructor
+- Smart Pointers
+- STL Vector
+- Dynamic Memory Allocation
+
+### Unit III
+
+- Abstract Classes and Pure Virtual Functions
+- Runtime Polymorphism
+- Operator Overloading
+- Default Arguments
+- Input Validation and String Handling
+- Smart Pointers
+- Dynamic Memory Allocation
+- Real-life application of OOP concepts
+---
+
+## Repository Structure
+
+```text
+OOPS-real-life-usage/
+│
+├── README.md
+├── .gitignore
+│
+├── Unit_1/
+│   │
+│   ├── Program_01/
+│   ├── Program_02/
+│   ├── Program_03/
+│   └── mini_project/
+│
+├── Unit_2/
+│   │
+│   ├── Program_01/
+│   ├── Program_02/
+│   ├── Program_03/
+│   └── mini_project/
+│
+└── Unit_3/
+    │
+    ├── Program_01/
+    ├── Program_02/
+    ├── Program_03/
+    └── mini_project/
+```
